@@ -1,6 +1,8 @@
 # 🚀 ISRO Mars Rover Landing Surface Analysis
 
 This repository presents an unsupervised statistical approach for analyzing Martian surface point cloud data to identify safe landing zones for the ISRO Mars Rover mission. The methodology is focused on differentiating smooth (flat) and rough (curved) regions through local geometry and curvature analysis.
+![Segmented-Surface](https://github.com/user-attachments/assets/52d26f2a-8199-4588-b175-64991f368b37)
+![Mars-Surface](https://github.com/user-attachments/assets/6a440497-0c0f-4c1c-92b3-db5f2250957a)
 
 ---
 
@@ -20,9 +22,7 @@ To develop an unsupervised pipeline that:
 
 ### 🔹 Curvature Estimation
 - **Curvature Metric (κ):**  
-  \[
-  κ = \frac{λ_{min}}{λ_1 + λ_2 + λ_3}
-  \]  
+  κ = λ_{min}/{λ_1 + λ_2 + λ_3} 
   A lower κ indicates flatter surface areas.
 
 ### 🔹 Thresholding
