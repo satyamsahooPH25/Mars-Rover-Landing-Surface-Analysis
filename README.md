@@ -15,6 +15,7 @@ To develop an unsupervised pipeline that:
 ---
 
 ## 🧠 Core Methodology
+![Roadmap](https://github.com/user-attachments/assets/8264475b-41aa-4cf3-a898-b8ecc27c7200)
 
 ### 🔹 Local Geometry Estimation
 - **k-Nearest Neighbors (kNN):** Identifies local neighborhood for each point.
